@@ -1,0 +1,26 @@
+:root {
+    --bs-primary: #2563eb;    /* softer blue */
+    --bs-secondary: #64748b;  /* cool gray */
+    --bs-warning: #f59e0b;    /* accent */
+}
+
+
+/* Override Electro orange backgrounds */
+.bg-primary,
+.header,
+.topbar,
+.navbar,
+.navbar.bg-primary {
+    background-color: var(--bs-primary) !important;
+}
+
+/* Category bar / top strip */
+.container-fluid.sticky-top {
+    background-color: var(--bs-primary) !important;
+}
+
+/* Card headers (Login/Register) */
+.card-header {
+    background-color: var(--bs-primary) !important;
+    color: #fff;
+}
